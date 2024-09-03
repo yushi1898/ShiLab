@@ -9,7 +9,7 @@ nav:
 
 {% include citation.html lookup="Smart lattice light-sheet" style="rich" %}
 
-{% include citation.html lookup="10.1101/2023.11.09.566470" style="rich" %}
+{% include citation.html lookup="Correlative single molecule lattice light sheet" style="rich" %}
 
 {% include citation.html lookup="Dissecting fat-tailed fluctuations" style="rich" %}
 

@@ -4,74 +4,26 @@ nav:
   order: 5
   tooltip: Email, address, and location
 ---
+# {% include icon.html icon="fa-regular fa-paper-plane" %}Contact
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+Inquiries can be directed to [XXXXX](emailaddress).
+{:.center}
 
 {% include section.html %}
 
-{% capture col1 %}
+## Directions
+
+{% capture text %}
+Our lab is in the [Depatment of Physics & Astronomy](https://www.physics.uwo.ca/) at Western University.  The lab is located on the Georgia Tech campus on the 3rd floor of the U.A. Whitaker building in Room 3237.  Card access is required for entry to lab spaces.
+
+Address: 313 Ferst Drive, Room 3237, Atlanta, GA 30318 [[map](https://www.google.com/maps/place/Physics+and+Astronomy,+1151+Richmond+St,+London,+ON+N6G+2V4/@43.0094113,-81.2739824,18.25z)]
+
+{% endcapture %}
 
 {%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  include feature.html
+  image="https://lh5.googleusercontent.com/p/AF1QipNQxrzIU5nIhqn14UN6EbfJUe_LeJF0RDpPmRsD=w408-h272-k-no"
+  headline=""
+  text=text
 %}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
