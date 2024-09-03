@@ -1,8 +1,9 @@
 # site properties and page defaults
-title: Cell Dynamics Lab
+title: BIO-MAS Lab
+subtitle: Biophysics of Intracellular Organization - Mechanics And Superresolution 
 description: Shi Lab @ Western University
-header: images/background.jpg
-footer: images/background.jpg
+header: images/background1.png
+footer: images/background2.jpg
 proofer: false
 
 # site social media and other links

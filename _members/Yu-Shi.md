@@ -1,6 +1,6 @@
 ---
 name: Yu Shi
-image: images\headshot\YS_200x230.png
+image: images/headshot/YS_200x230.png
 role: pi
 affiliation: Western University
 aliases:
