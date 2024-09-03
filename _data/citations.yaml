@@ -32,25 +32,6 @@
   plugin: sources.py
   file: sources.yaml
   image: ../images/publications/NatMet_41592_2023_2126_Fig4_HTML.png
-- id: doi:10.1101/2023.11.09.566470
-  title: Correlative single molecule lattice light sheet imaging reveals the dynamic
-    relationship between nucleosomes and the local chromatin environment
-  authors:
-  - Timothy A. Daugird
-  - Yu Shi
-  - Katie L. Holland
-  - Hosein Rostamian
-  - Zhe Liu
-  - Luke D. Lavis
-  - Joseph Rodriguez
-  - Brian D. Strahl
-  - Wesley R. Legant
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-11-13'
-  link: https://doi.org/gt8f6c
-  orcid: 0000-0002-8827-7500
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.48550/arXiv.2309.06226
   title: "L\xE9vy distributed fluctuations in the living cell cortex"
   authors:
