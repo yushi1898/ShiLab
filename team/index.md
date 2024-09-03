@@ -18,5 +18,4 @@ nav:
 {% include list.html  data="members"  component="portrait"  filters="role: current-undergrad" %}
 {% include list.html  data="members"  component="portrait"  filters="role: current-hs" %}
 
-{% include section.html %}
 
